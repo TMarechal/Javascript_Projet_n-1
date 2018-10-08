@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
+        url('HelveticaNeueLTStd-MdCn.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue LT Std';
+    src: url('HelveticaNeueLTStd-ThCn.woff2') format('woff2'),
+        url('HelveticaNeueLTStd-ThCn.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.FontHelvNormal {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: normal;
+}
+
+.FontHelv100 {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 100;
+}
+
+.FontHelv500 {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 500;
+}
+
+.FontSize15px {
+    font-size: 15px;
+}
+
+.FontSize20px {
+    font-size: 20px;
+}
+
+.FontSize25px {
+    font-size: 25px;
+}
+
+.color0 {
+    color: #ffffff;
+}
+
+.color1 {
+    color: #babcbe;
+}
+
+.color2 {
+    color: #a0a0a0;
+}
+
+.Opacity08 {
+    opacity: 0.8;
+}
+
+.Bg-Header {
+    background-image: url(../IMAGES/Background_Header.png);
+}
+
+.Bg-Pub {
+    background-image: url(../IMAGES/Bannière_Pub.png);
+    height: 75px;
+}
+
+.Bg_Color0 {
+    background-color: #ffffff;
+}
+
+.Bg_Button {
+    background-color: #4c5b66;
+}
+
+.BorderBottom {
+    border-bottom: solid white 1px;
+}
+
+.Button_BorderN {
+    border: none;
+}
+
+.BorderR {
+    border-radius: 20px;
+}
+
+.TxtDecoN {
+    text-decoration: none;
+}
+
+.TxtCenter {
+    text-align: center;
+}
+
+.PaddingT50px {
+    padding-top: 50px;
+}
+
+.PaddingT10px {
+    padding-top: 10px;
+}
+
+.PaddingR50px {
+    padding-right: 50px;
+}
+
+.MarginTop65px {
+    margin-top: 65px;
+}
+
+.MarginTop50px {
+    margin-top: 50px;
+}
+
+.MarginTop25px {
+    margin-top: 25px;
+}
+
+.BorderB {
+    border-bottom: solid 1px white;
+    width: 50px;
+}
+
+.BorderT {
+    border-top: solid 1px grey;
+    width: 100%;
+}
+
+/* Boutons */
+.ButtonMenu {
+    background-color: #4c5b66;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 16px 34px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+.ButtonMenu:hover {
+    background-color: #3a444b;
+}
+
+.ButtonMenu:active {
+    position: relative;
+    top: 1px;
+}
+
+
+.ButtonRequest {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#429dd5), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #429dd5, #65a9d7);
+    background: -moz-linear-gradient(top, #429dd5, #65a9d7);
+    background: -ms-linear-gradient(top, #429dd5, #65a9d7);
+    background: -o-linear-gradient(top, #429dd5, #65a9d7);
+    padding: 7.5px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: white;
+    font-size: 13px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.ButtonRequest:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+
+.ButtonRequest:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+
+.ButtonRead {
+    -moz-box-shadow: inset 0px 0px 0px 0px #54a3f7;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #54a3f7;
+    box-shadow: inset 0px 0px 0px 0px #54a3f7;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #559bd1), color-stop(1, #4a8fcb));
+    background: -moz-linear-gradient(top, #559bd1 5%, #4a8fcb 100%);
+    background: -webkit-linear-gradient(top, #559bd1 5%, #4a8fcb 100%);
+    background: -o-linear-gradient(top, #559bd1 5%, #4a8fcb 100%);
+    background: -ms-linear-gradient(top, #559bd1 5%, #4a8fcb 100%);
+    background: linear-gradient(to bottom, #559bd1 5%, #4a8fcb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#559bd1', endColorstr='#4a8fcb', GradientType=0);
+    background-color: #559bd1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+}
+
+.ButtonRead:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4a8fcb), color-stop(1, #559bd1));
+    background: -moz-linear-gradient(top, #4a8fcb 5%, #559bd1 100%);
+    background: -webkit-linear-gradient(top, #4a8fcb 5%, #559bd1 100%);
+    background: -o-linear-gradient(top, #4a8fcb 5%, #559bd1 100%);
+    background: -ms-linear-gradient(top, #4a8fcb 5%, #559bd1 100%);
+    background: linear-gradient(to bottom, #4a8fcb 5%, #559bd1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a8fcb', endColorstr='#559bd1', GradientType=0);
+    background-color: #4a8fcb;
+}
+
+.ButtonRead:active {
+    position: relative;
+    top: 1px;
+}
