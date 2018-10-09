@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Helvetica Neue LT Std';
-    src: url('HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
-        url('HelveticaNeueLTStd-MdCn.woff') format('woff');
+    src: url('../FONTS/HelveticaNeueLTStd-MdCn.woff2') format('woff2'),
+        url('../FONTS/HelveticaNeueLTStd-MdCn.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Helvetica Neue LT Std';
-    src: url('HelveticaNeueLTStd-ThCn.woff2') format('woff2'),
-        url('HelveticaNeueLTStd-ThCn.woff') format('woff');
+    src: url('../FONTS/HelveticaNeueLTStd-ThCn.woff2') format('woff2'),
+        url('../FONTS/HelveticaNeueLTStd-ThCn.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
@@ -82,10 +82,6 @@
     border: none;
 }
 
-.BorderR {
-    border-radius: 20px;
-}
-
 .TxtDecoN {
     text-decoration: none;
 }
@@ -94,6 +90,7 @@
     text-align: center;
 }
 
+/* Padding & Margin */
 .PaddingT50px {
     padding-top: 50px;
 }
@@ -118,15 +115,42 @@
     margin-top: 25px;
 }
 
+/* Border */
 .BorderB {
     border-bottom: solid 1px white;
     width: 50px;
+}
+
+.BorderR {
+    border-radius: 20px;
 }
 
 .BorderT {
     border-top: solid 1px grey;
     width: 100%;
 }
+
+.Transition {
+    transition: all 0.5s ease;
+}
+
+/* Responsive */
+@media screen and (max-width:768px) {
+    div.Pub {
+        display: none;
+    }
+    div.Iphone{
+        display: none;
+    }
+    div.FDC{
+        flex-direction: column;
+    }
+    div.MenuNav{
+        display: none;
+        visibility: hidden;
+    }
+}
+
 
 /* Boutons */
 .ButtonMenu {
